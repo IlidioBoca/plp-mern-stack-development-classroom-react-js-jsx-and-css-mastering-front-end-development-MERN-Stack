@@ -1,70 +1,84 @@
-# React.js and Tailwind CSS Assignment
+# Semana 3 - React.js, JSX e Tailwind CSS
 
-This assignment focuses on building a responsive React application using JSX and Tailwind CSS, implementing component architecture, state management, hooks, and API integration.
+##  Desenvolvido por: Ilídio Boca
 
-## Assignment Overview
+Este projeto foi desenvolvido como parte da Semana 3 do curso de Desenvolvimento de Software da **PLP Academy**.
 
-You will:
-1. Set up a React project with Vite and Tailwind CSS
-2. Create reusable UI components
-3. Implement state management using React hooks
-4. Integrate with external APIs
-5. Style your application using Tailwind CSS
+Demonstra o uso de **React + Vite + Tailwind CSS**, com gerenciamento de estado por hooks, roteamento com React Router e integração de API pública (JSONPlaceholder).
 
-## Getting Started
+---
 
-1. Accept the GitHub Classroom assignment invitation
-2. Clone your personal repository that was created by GitHub Classroom
-3. Install dependencies:
+##  Funcionalidades
+- Componentes reutilizáveis (Button, Card, Navbar, Footer)
+- Gerenciamento de estado com Hooks (`useState`, `useEffect`, `useContext`)
+- Hook personalizado `useLocalStorage`
+- Task Manager com filtros e persistência local
+- Integração com API (JSONPlaceholder)
+- Design responsivo com Tailwind CSS e modo escuro
+
+---
+
+##  Instalação
+
+1. Clone este repositório:
+   ```bash
+   git clone <URL_DO_SEU_REPOSITORIO>
+   cd semana3-react-tailwind
    ```
+
+2. Instale as dependências:
+   ```bash
    npm install
    ```
-4. Start the development server:
-   ```
+
+3. Inicie o servidor de desenvolvimento:
+   ```bash
    npm run dev
    ```
 
-## Files Included
+4. Acesse em `http://localhost:5173`
 
-- `Week3-Assignment.md`: Detailed assignment instructions
-- Starter files for your React application:
-  - Basic project structure
-  - Pre-configured Tailwind CSS
-  - Sample component templates
+---
 
-## Requirements
+##  Modo Claro/Escuro
+Use o botão no canto superior direito da Navbar para alternar entre temas.
 
-- Node.js (v18 or higher)
-- npm or yarn
-- Modern web browser
-- Code editor (VS Code recommended)
+---
 
-## Project Structure
+##  Deploy
+Este projeto pode ser facilmente implantado no **Vercel**, **Netlify** ou **GitHub Pages**.
 
+Exemplo de URL de deploy:
+ [https://semana3-react-ilidioboca.vercel.app](#)
+
+---
+
+##  Estrutura do Projeto
 ```
 src/
-├── components/       # Reusable UI components
-├── pages/           # Page components
-├── hooks/           # Custom React hooks
-├── context/         # React context providers
-├── api/             # API integration functions
-├── utils/           # Utility functions
-└── App.jsx          # Main application component
+├── components/
+│   ├── Button.jsx
+│   ├── Card.jsx
+│   ├── Footer.jsx
+│   └── Navbar.jsx
+├── hooks/
+│   └── useLocalStorage.js
+├── pages/
+│   ├── Home.jsx
+│   ├── Tasks.jsx
+│   └── ApiPage.jsx
+├── App.jsx
+├── index.css
+└── main.jsx
 ```
 
-## Submission
+---
 
-Your work will be automatically submitted when you push to your GitHub Classroom repository. Make sure to:
+##  Contatos
+- **GitHub:** [IlidioBoca](https://github.com/IlidioBoca)
+- **LinkedIn:** [Ilídio Boca](https://www.linkedin.com/in/ilidio-boca-aa001b219/)
+- **Email:** ilidioboca3@gmail.com
 
-1. Complete all required components and features
-2. Implement proper state management with hooks
-3. Integrate with at least one external API
-4. Style your application with Tailwind CSS
-5. Deploy your application and add the URL to your README.md
+---
 
-## Resources
-
-- [React Documentation](https://react.dev/)
-- [Tailwind CSS Documentation](https://tailwindcss.com/docs)
-- [Vite Documentation](https://vitejs.dev/guide/)
-- [React Router Documentation](https://reactrouter.com/) 
+© 2025 Ilídio Boca — Todos os direitos reservados.
